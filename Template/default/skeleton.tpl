@@ -1,8 +1,8 @@
 <html>
-    <head>
-        <title>{$siteTitle}</title>
-    </head>
+    {include header.tpl}
     <body>
         {$content}
+        {include javascripts.tpl}
     </body>
+    {include footer.tpl}
 </html>
